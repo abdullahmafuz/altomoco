@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+
+$primaryColor:#444446;
+
 *{
     font-family: 'Varela Round', sans-serif;
 }
@@ -17,7 +21,7 @@
     scroll-behavior: smooth;
   }
   nav{
-      background: linear-gradient(to right, #0c6ea7, #000080 );
+      background: $primaryColor;
      
       nav-item{
         a{
@@ -30,6 +34,21 @@
     }
   }
 
+  .navbar{
+    font-family:'BernardMTCondensed';
+    font-weight: 900;
+    
+  }
+
+
+  .navbar-brand{
+    img{
+      position: relative;;
+      width: 70px;
+      height: 70px;
+      
+    }
+  }
 
   .carousel-item{
         height: 98vh;
@@ -73,18 +92,23 @@
         }
       }
 
+      
      
       .about-bg{
           background-image: url('../../img/dubai.jpg');
           min-height: 150px;
       }
       .about{
-        background: linear-gradient(to right, #0c6ea7, #000080 );
+        background: $primaryColor;
           color: #ffffff;
           padding: 40px;
           box-shadow: 0 0 10px 10px #686868;
           text-align: center;
           
+          p{
+            font-size: larger;
+            letter-spacing: 1.2;
+          }
       }
 
      
@@ -93,7 +117,7 @@
         padding: 5rem 0 0;
         .card {
           border: 0;
-          border-bottom: 0.25rem solidrgb(1, 18, 251);
+          border-bottom: 0.25rem solid  $primaryColor;
           h4 {
             font-size: 0.8rem;
             font-family: 'Varela Round';
@@ -101,7 +125,7 @@
             letter-spacing: 0.15rem;
           }
           hr {
-            border-color: rgb(1, 18, 251);
+            border-color: $primaryColor;
             border-width: 0.25rem;
             width: 3rem;
           }
@@ -134,24 +158,25 @@
       }
       
       i{
-          color: rgb(1, 18, 251);
+          color:  $primaryColor;
       }
 
       footer{
           padding: 10px;
           width: 100%;
           height: 5vh;
-          background: linear-gradient(to right, #0c6ea7, #000080 );
+          background: $primaryColor;
       }
 
       a{
        
 
         text-decoration: none;
-       
+        color: #000000;
 
         &:hover{
             text-decoration: none;
+            color: #313131;
         }
       }
 
@@ -160,4 +185,29 @@
           height: 100%;
         }
           
+      }
+
+      @media only screen and (max-width: 1000px) {
+        .navbar-brand{
+          span{
+            font-size: small;
+          }
+        }
+
+        .nav-item{
+          font-size: small;
+        }
+      }
+     
+
+      @media only screen and (max-width: 1100px) {
+        .navbar-brand{
+          span{
+            font-size: medium;
+          }
+        }
+
+        .nav-item{
+          font-size: medium;
+        }
       }
