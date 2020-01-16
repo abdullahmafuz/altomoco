@@ -195,4 +195,13 @@ a:hover {
     font-size: small;
   }
 }
+
+@media only screen and (max-width: 786px) {
+  .navbar-brand span {
+    font-size: 10px;
+  }
+  .nav-item {
+    font-size: small;
+  }
+}
 /*# sourceMappingURL=index.css.map */

@@ -213,4 +213,15 @@ $primaryColor:#444446;
           font-size: small;
         }
       }
-      
+
+      @media only screen and (max-width: 786px) {
+        .navbar-brand{
+          span{
+            font-size: 10px;
+          }
+        }
+
+        .nav-item{
+          font-size: small;
+        }
+      }
