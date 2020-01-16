@@ -18,7 +18,7 @@ html {
 }
 
 nav {
-  background: #444446;
+  background: #444446c7;
 }
 
 nav nav-item a {
@@ -178,21 +178,21 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 1000px) {
-  .navbar-brand span {
-    font-size: small;
-  }
-  .nav-item {
-    font-size: small;
-  }
-}
-
 @media only screen and (max-width: 1100px) {
   .navbar-brand span {
     font-size: medium;
   }
   .nav-item {
     font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-brand span {
+    font-size: small;
+  }
+  .nav-item {
+    font-size: small;
   }
 }
 /*# sourceMappingURL=index.css.map */

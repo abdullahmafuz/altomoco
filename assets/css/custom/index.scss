@@ -21,7 +21,7 @@ $primaryColor:#444446;
     scroll-behavior: smooth;
   }
   nav{
-      background: $primaryColor;
+      background: #444446c7;
      
       nav-item{
         a{
@@ -187,17 +187,7 @@ $primaryColor:#444446;
           
       }
 
-      @media only screen and (max-width: 1000px) {
-        .navbar-brand{
-          span{
-            font-size: small;
-          }
-        }
-
-        .nav-item{
-          font-size: small;
-        }
-      }
+    
      
 
       @media only screen and (max-width: 1100px) {
@@ -209,5 +199,17 @@ $primaryColor:#444446;
 
         .nav-item{
           font-size: medium;
+        }
+      }
+
+      @media only screen and (max-width: 1000px) {
+        .navbar-brand{
+          span{
+            font-size: small;
+          }
+        }
+
+        .nav-item{
+          font-size: small;
         }
       }
