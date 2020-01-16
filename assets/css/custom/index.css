@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+* {
+  font-family: 'Varela Round', sans-serif;
+}
+
+@media only screen and (min-width: 800px) {
+  .navbar-nav {
+    margin-right: 10%;
+    font-size: large;
+  }
+  .nav-item {
+    margin-right: 20%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background: -webkit-gradient(linear, left top, right top, from(#0c6ea7), to(#000080));
+  background: linear-gradient(to right, #0c6ea7, #000080);
+}
+
+nav nav-item a {
+  color: #ffffff;
+}
+
+nav nav-item a:hover {
+  color: #e94e4e;
+}
+
+.carousel-item {
+  height: 98vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.navbar-toggler span {
+  color: white;
+}
+
+.about-bg, .contact {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-bg h2, .contact h2 {
+  color: seashell;
+  font-weight: bolder;
+  text-shadow: 0 0 10px black;
+  padding: 10px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 10px #ffffff;
+          box-shadow: 0 0 10px #ffffff;
+  cursor: pointer;
+}
+
+.about-bg h2:hover, .contact h2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.about-bg {
+  background-image: url("../../img/dubai.jpg");
+  min-height: 150px;
+}
+
+.about {
+  background: -webkit-gradient(linear, left top, right top, from(#0c6ea7), to(#000080));
+  background: linear-gradient(to right, #0c6ea7, #000080);
+  color: #ffffff;
+  padding: 40px;
+  -webkit-box-shadow: 0 0 10px 10px #686868;
+          box-shadow: 0 0 10px 10px #686868;
+  text-align: center;
+}
+
+.contact {
+  background-image: url("../../img/dubai.jpg");
+  padding: 5rem 0 0;
+}
+
+.contact .card {
+  border: 0;
+  border-bottom: 0.25rem solidrgb(1, 18, 251);
+}
+
+.contact .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact .card hr {
+  border-color: #0112fb;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact .media {
+  margin-top: 5rem;
+  padding: 20px;
+}
+
+.contact .media a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: #ecefed;
+  border-radius: 100%;
+  line-height: 3rem;
+  text-decoration: none;
+  color: #ecefed;
+}
+
+.contact .media a:hover {
+  color: #ecefed;
+  text-decoration: none;
+}
+
+.contact .media a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+i {
+  color: #0112fb;
+}
+
+footer {
+  padding: 10px;
+  width: 100%;
+  height: 5vh;
+  background: -webkit-gradient(linear, left top, right top, from(#0c6ea7), to(#000080));
+  background: linear-gradient(to right, #0c6ea7, #000080);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */
