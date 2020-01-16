@@ -198,7 +198,7 @@ a:hover {
 
 @media only screen and (max-width: 786px) {
   .navbar-brand span {
-    font-size: 8px;
+    font-size: 12px;
   }
   .nav-item {
     font-size: small;
