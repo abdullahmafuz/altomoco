@@ -32,7 +32,6 @@ nav nav-item a:hover {
 
 .carousel-item {
   height: 98vh;
-  min-height: 350px;
   background: no-repeat center center scroll;
   background-size: cover;
 }
@@ -156,5 +155,11 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .carousel-item {
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

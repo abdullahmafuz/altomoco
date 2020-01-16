@@ -31,9 +31,9 @@
   }
 
 
-    .carousel-item {
+  .carousel-item{
         height: 98vh;
-        min-height: 350px;
+        
         background: no-repeat center center scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -72,6 +72,8 @@
            }
         }
       }
+
+     
       .about-bg{
           background-image: url('../../img/dubai.jpg');
           min-height: 150px;
@@ -151,4 +153,11 @@
         &:hover{
             text-decoration: none;
         }
+      }
+
+      @media only screen and (max-width: 1000px) {
+        .carousel-item{
+          height: 100%;
+        }
+          
       }
