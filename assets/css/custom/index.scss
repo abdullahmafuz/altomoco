@@ -3,9 +3,8 @@
 
 $primaryColor:#444446;
 
-*{
-    font-family: 'Varela Round', sans-serif;
-}
+  
+
 
 @media only screen and (min-width: 800px) {
    .navbar-nav{
@@ -35,7 +34,7 @@ $primaryColor:#444446;
   }
 
   .navbar{
-    font-family:'BernardMTCondensed';
+    font-family: 'Noto Serif', serif;
     font-weight: 900;
     
   }
@@ -84,11 +83,9 @@ $primaryColor:#444446;
           
            padding: 10px;
            border-radius: 15px;
-           box-shadow: 0 0 10px #ffffff;
-            cursor: pointer;
-           &:hover{
-            transform: scale(1.2);
-           }
+           
+         
+           
         }
       }
 
@@ -99,6 +96,7 @@ $primaryColor:#444446;
           min-height: 150px;
       }
       .about{
+        font-family: 'Varela Round', sans-serif;
         background: $primaryColor;
           color: #ffffff;
           padding: 40px;
@@ -115,6 +113,7 @@ $primaryColor:#444446;
       .contact {
         background-image: url('../../img/dubai.jpg');
         padding: 5rem 0 0;
+        font-family: 'Varela Round', sans-serif;
         .card {
           border: 0;
           border-bottom: 0.25rem solid  $primaryColor;
@@ -179,6 +178,26 @@ $primaryColor:#444446;
             color: #313131;
         }
       }
+
+
+
+      .industy-img{
+        background-image: url('../../img/dubai.jpg');
+         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      
+        
+        img{
+          width: 300px;
+          height: 250px;
+          padding: 10px;
+          margin: 10px;
+          border-radius: 2%;
+        }
+      }
+
 
       @media only screen and (max-width: 1000px) {
         .carousel-item{
