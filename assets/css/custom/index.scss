@@ -20,11 +20,12 @@ $primaryColor:#444446;
     scroll-behavior: smooth;
   }
   nav{
-      background: #444446c7;
+      background: #1e2430;
+      box-shadow: 1px 2px 8px rgba(0,0,0,0.3);
      
-      nav-item{
+      .nav-item{
         a{
-            color: #ffffff;
+            color: #F8E1D0;
             
             &:hover{
                 color: rgb(233, 78, 78);
@@ -34,7 +35,7 @@ $primaryColor:#444446;
   }
 
   .navbar{
-    font-family: 'Noto Serif', serif;
+    font-family: 'Open Sans', serif;
     font-weight: 900;
     
   }
@@ -50,18 +51,26 @@ $primaryColor:#444446;
   }
 
   .carousel-item{
-        height: 98vh;
+        // height: 98vh;
         
-        background: no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        // background: no-repeat center center scroll;
+        // -webkit-background-size: cover;
+        // -moz-background-size: cover;
+        // -o-background-size: cover;
+        // background-size: cover;
+      }
+
+      .slider-images {
+        // border: 1px solid red;
+        width: 100%;
+        height: 630px;
         background-size: cover;
+        background-position: center;
       }
 
       .navbar-toggler{
           span{
-              color: white;
+              color: #F8E1D0;
           }
       }
 
@@ -96,15 +105,15 @@ $primaryColor:#444446;
           min-height: 150px;
       }
       .about{
-        font-family: 'Varela Round', sans-serif;
-        background: $primaryColor;
+        font-family: 'Open Sans', sans-serif;
+        background: #1e2430;
           color: #ffffff;
           padding: 40px;
-          box-shadow: 0 0 10px 10px #686868;
+          // box-shadow: 0 0 10px 10px #686868;
           text-align: center;
           
           p{
-            font-size: larger;
+                font-size: 16px;
             letter-spacing: 1.2;
           }
       }
@@ -113,13 +122,13 @@ $primaryColor:#444446;
       .contact {
         background-image: url('../../img/dubai.jpg');
         padding: 5rem 0 0;
-        font-family: 'Varela Round', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         .card {
           border: 0;
           border-bottom: 0.25rem solid  $primaryColor;
           h4 {
             font-size: 0.8rem;
-            font-family: 'Varela Round';
+            font-family: 'Open Sans';
             text-transform: uppercase;
             letter-spacing: 0.15rem;
           }
@@ -164,7 +173,7 @@ $primaryColor:#444446;
           padding: 10px;
           width: 100%;
           height: 5vh;
-          background: $primaryColor;
+          background: #1e2430;
       }
 
       a{
@@ -244,3 +253,11 @@ $primaryColor:#444446;
           font-size: small;
         }
       }
+
+body{
+  background:#293243;
+  .wrapper{
+    position: relative;
+    top: 93px;
+  }
+}
